@@ -1,0 +1,10 @@
+# mhglass — nunca versionar chaves nem binário de fabricante
+app/app/libs/
+*.aar
+local.properties
+*.keystore
+app/.gradle/
+app/app/build/
+app/build/
+.gradle/
+build/
