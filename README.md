@@ -104,6 +104,16 @@ Detalhe do comando, gatilhos e mensagens faladas: ver
    HeyCyan original fechado, chave Gemini em Configurações (fica só
    no celular). Brave é opcional, para o cruzamento na internet.
 
+## Publicar o APK (GitHub Releases)
+
+O mhglass é um aplicativo Android, não um site nem um backend, por
+isso não há deploy em Vercel nem em Railway. A distribuição é:
+compilar no PC e publicar o APK no GitHub Releases. Passo a passo
+completo, incluindo debug, release assinado e o que nunca vai para
+o Releases, em [docs/COMPILAR-E-PUBLICAR-APK.md](docs/COMPILAR-E-PUBLICAR-APK.md).
+O texto pronto para a descrição da v0.1.0 está em
+[docs/RELEASE-v0.1.0.md](docs/RELEASE-v0.1.0.md).
+
 ## Teste ao vivo, em ordem
 
 1. Tocar em "Testar som no óculos". Se ouvir no óculos, a rota está
